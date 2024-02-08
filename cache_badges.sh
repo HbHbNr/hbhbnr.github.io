@@ -9,3 +9,8 @@ done
 for version in 2018; do
     curl --silent --show-error "https://img.shields.io/badge/Fortran-${version}-blue?logo=fortran&logoColor=white" > docs/badges/Fortran-${version}-blue-fortran-white.svg
 done
+
+# licenses
+for version in GPL--3.0; do
+    curl --silent --show-error "https://img.shields.io/badge/license-${version}-blue" > docs/badges/license-${version}-blue.svg
+done
